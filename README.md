@@ -26,7 +26,7 @@ There's also a few alarm systems installed in this Prototype
 6. 6V 4.5 Ah battery (High capcity)
 7. Wires (A lot of them.)
 
-## software requirments
+## Software Requirments
 1. upload the code to the arduino board
 2. install the companion app (apk included in the repo inside the 'companion app' folder)
 3. Connect to the Bluetooth module.
@@ -75,5 +75,5 @@ the brake pedal sends the letter 's' which immediately calls the `stop()` method
 1. the voice recognition only works for a single word, so if you say "left left" it will not know what to do, you have to say "left" for it work properly (which is an easy fix, but yeah.)
 2. the FSR is janky, it's really hard to get a consistent reading because the pressure has to be applied uniformly and the human body is not exactly that perfect, we're using a set of cushions to avoid this problem but they work only 75% of the time, which is actually still pretty good.
 
-# conclusion
+# Conclusion
 this is just a proof of concept, it's not meant to be actually used, However it still works surprisingly well, thanks for reading.
